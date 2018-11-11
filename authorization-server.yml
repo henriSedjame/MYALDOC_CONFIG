@@ -5,10 +5,10 @@ server:
     context-path : "/auth"
 
 ### Client Details ######
-clientId : "test"
-clientSecret : "test"
-grantTypes : "authorization_code"
-scopes : "scope"
-redirectUris : "http://localhost:9999/login"
-tokenValiditySeconds :
-resourceIds :
+clientId : test
+clientSecret : test
+grantTypes : authorization_code
+scopes : scope
+redirectUris : http://localhost:9999/login
+tokenValiditySeconds : 3600
+resourceIds : testId
