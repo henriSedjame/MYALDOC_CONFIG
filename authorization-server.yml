@@ -1,0 +1,14 @@
+#Spécifier le port
+server:
+  port : 9000
+  servlet :
+    context-path : "/auth"
+
+### Client Details ######
+clientId : "test"
+clientSecret : "test"
+grantTypes : "authorization_code"
+scopes : "scope"
+redirectUris : "http://localhost:9999/login"
+tokenValiditySeconds :
+resourceIds :

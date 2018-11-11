@@ -1,0 +1,9 @@
+server :
+  port : 8761
+
+##Désativer l'enregistrement eureka
+eureka :
+  client :
+    fetch-registry : false
+    register-with-eureka : false
+
