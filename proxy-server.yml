@@ -18,6 +18,6 @@ security:
       clientId: test
       clientSecret: test
       accessTokenUri: http://localhost:9000/auth/oauth/token
-      userAuthorizationUri: /auth/oauth/authorize
+      userAuthorizationUri: /authorization-server/auth/oauth/authorize
     resource:
       userInfoUri: http://localhost:9000/auth/user
