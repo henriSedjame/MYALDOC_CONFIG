@@ -12,7 +12,8 @@ zuul :
 ##Security
 security:
   oauth2:
-    loginPath : /login
+    sso :
+      loginPath : /login
     client:
       clientId: test
       clientSecret: test
