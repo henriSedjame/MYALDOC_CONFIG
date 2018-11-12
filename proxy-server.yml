@@ -1,13 +1,22 @@
 server :
   port : 9999
 
+zuul :
+  routes :
+    authorization-server :
+      sensitiveHeaders : Authorization
+      path : /authorization-server/**
+      stripPrefix : false
+  add-proxy-headers : true
+
 ##Security
 security:
   oauth2:
+    loginPath : /login
     client:
       clientId: test
       clientSecret: test
       accessTokenUri: http://localhost:9000/auth/oauth/token
-      userAuthorizationUri: http://localhost:9000/auth/oauth/authorize
+      userAuthorizationUri: /auth/oauth/authorize
     resource:
       userInfoUri: http://localhost:9000/auth/user
