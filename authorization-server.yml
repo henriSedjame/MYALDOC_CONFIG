@@ -1,10 +1,10 @@
-#Spécifier le port
+#### SERVER DETAILS #####
 server:
   port : 9000
   servlet :
     context-path : "/auth"
 
-### Client Details ######
+### OAUTH2 CLIENT DETAILS ######
 client-details :
   clientId : test
   clientSecret : test
@@ -13,3 +13,11 @@ client-details :
   redirectUris : http://localhost:9999/login
   tokenValiditySeconds : 3600
   resourceIds : testId
+
+### MONGODB PROPERTIES ###
+spring :
+  data :
+    mongodb :
+      port : 27017
+      host : localhost
+      database : Authentication-Server-DB
