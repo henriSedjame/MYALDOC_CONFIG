@@ -1,8 +1,10 @@
+### SERVER DETAILS ###
 server :
   port : 9999
 
 
-##Security
+### SECURITY DETAILS ###
+
 security:
   oauth2:
     sso :

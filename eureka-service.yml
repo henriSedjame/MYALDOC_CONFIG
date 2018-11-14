@@ -1,7 +1,8 @@
+### SERVER DETAILS ###
 server :
   port : 8761
 
-##Désativer l'enregistrement eureka
+### DETAILS EUREKA ###
 eureka :
   client :
     fetch-registry : false

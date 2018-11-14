@@ -1,6 +1,5 @@
 #### CONFIG CREDENTIALS ####
 spring :
-  cloud :
-    config :
-      username : "myaldoc_config_username"
-      password : "myaldoc_config_password"
+  profiles :
+    active : dev
+
