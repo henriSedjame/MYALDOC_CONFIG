@@ -23,5 +23,9 @@ spring :
       database : Authentication-Server-DB
 
 
+### MESSAGES D'ERREUR ###
 
+error :
+  message :
+    usernotfound : Aucun utilisateur avec le login {0} n'a été trouvé.
 
