@@ -1,3 +1,4 @@
+---
 ### SERVER DETAILS ###
 server:
   port : 9000
@@ -22,6 +23,7 @@ spring :
       host : localhost
       database : Authentication-Server-DB
 
+----
 
 ### MESSAGES D'ERREUR ###
 
