@@ -22,6 +22,6 @@ zuul :
   sensitive-headers :
   routes :
     service :
-      path : /service-test/**
-      serviceId : service-test
+      path : /service-a/**
+      serviceId : service-a
       stripPrefix : false
