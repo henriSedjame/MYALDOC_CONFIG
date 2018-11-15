@@ -17,3 +17,11 @@ security:
       scope : scope
     resource:
       userInfoUri: http://localhost:9000/auth/user
+
+zuul :
+  sensitive-headers :
+  routes :
+    service :
+      path : /service-test/**
+      serviceId : service-test
+      stripPrefix : false
