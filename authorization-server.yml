@@ -4,6 +4,7 @@ server:
   port : 9000
   servlet :
     context-path : "/auth"
+    use-forward-headers : false
 
 ### OAUTH2 CLIENT DETAILS ###
 client-details :
@@ -14,6 +15,11 @@ client-details :
   redirectUris : http://localhost:9999/login
   tokenValiditySeconds : 3600
   resourceIds : testId
+
+### JSON WEB TOKENN ###
+jwt :
+  sign :
+    key : key
 
 ### MONGODB PROPERTIES ###
 spring :

@@ -3,3 +3,12 @@ spring :
   profiles :
     active : dev
 
+#### EUREKA CONFIG ####
+
+eureka:
+  instance:
+    hostname: localhost
+    port: 8761
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/

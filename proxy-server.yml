@@ -16,10 +16,13 @@ security:
       userAuthorizationUri: http://localhost:9000/auth/oauth/authorize
       scope : scope
     resource:
+      jwt :
+        keyValue : key
       userInfoUri: http://localhost:9000/auth/user
 
 zuul :
   sensitive-headers :
+  add-proxy-headers : true
   routes :
     service :
       path : /service-a/**
