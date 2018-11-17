@@ -18,17 +18,10 @@ security:
     resource:
       userInfoUri: http://localhost:9000/auth/user
 
-
 zuul :
-
+  sensitive-headers :
   routes :
-    authorization-server :
-      path : /authorization-server/auth/**
-      sensitive-headers : authorization
-      serviceId : authorization-server
-      stripPrefix : false
-    service-a :
-      sensitive-headers :
+    service :
       path : /service-a/**
       serviceId : service-a
       stripPrefix : false
