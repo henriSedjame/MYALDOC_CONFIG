@@ -1,3 +1,4 @@
+localhost : http://localhost:
 
 ### SERVER DETAILS ###
 server:
@@ -12,7 +13,7 @@ client-details :
   clientSecret : test
   grantTypes : authorization_code
   scopes : scope
-  redirectUris : http://localhost:9999/login
+  redirectUris : ${localhost}9999/login, ${localhost}8080/login
   tokenValiditySeconds : 3600
   resourceIds : testId
 
