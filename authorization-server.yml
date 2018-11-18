@@ -10,25 +10,12 @@ server:
 client-details :
   clientId : test
   clientSecret : test
-  grantTypes : authorization_code
+  grantTypes : authorization_code,refresh_token
   scopes : scope
   redirectUris : http://localhost:9999/login,http://localhost:8080/login
-  tokenValiditySeconds : 3600
+  tokenValiditySeconds : 120
+  refreshTokenValiditySecond : 600
   resourceIds : testId
-
-security:
-  oauth2:
-    client:
-      clientId: test
-      clientSecret: test
-      accessTokenUri: http://localhost:9000/auth/oauth/token
-      userAuthorizationUri: http://localhost:9000/auth/oauth/authorize
-      scope : scope
-      registered-redirect-uri : http://localhost:9999/login,http://localhost:8080/login
-      access-token-validity-seconds: 120
-      refresh-token-validity-seconds: 120
-      auto-approve-scopes: scope
-      resource-ids: testId
 
 
 ### MONGODB PROPERTIES ###
