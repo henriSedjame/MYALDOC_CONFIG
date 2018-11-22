@@ -19,7 +19,7 @@ security:
       userInfoUri: http://localhost:9000/auth/user
 
 zuul :
-  sensitive-headers : Cookie,Set-Cookie
+  sensitive-headers :
   routes :
     service-a :
       path : /service-a/**
