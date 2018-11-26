@@ -10,7 +10,7 @@ server:
 client-details :
   clientId : test
   clientSecret : test
-  grantTypes : authorization_code,refresh_token,password
+  grantTypes : password
   scopes : scope
   redirectUris : http://localhost:9999/login
   tokenValiditySeconds : 120
