@@ -30,9 +30,10 @@ spring :
 ### MESSAGES D'ERREUR ###
 
 error :
-  message :
-    default : Une erreur est survenue.
-    internalerror : Une erreur technique s'est produite.
-    usernotfound : Aucun utilisateur avec le login {0} n'a été trouvé.
-    badcredentials : Identifiants incorrects.
+  messages :
+    defaultMessage : Une erreur est survenue.
+    internalError : Une erreur technique s'est produite.
+    userNotFound : Aucun utilisateur avec le login {0} n'a été trouvé.
+    badCredentials : Identifiants incorrects.
+    userAlreadyExist : Le login {0} est déjà utilisé.
 
