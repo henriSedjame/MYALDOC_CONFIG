@@ -1,7 +1,7 @@
 #### CONFIG CREDENTIALS ####
 spring :
   profiles :
-    active : dev,reactiveSecurity
+    active : dev,security
 
 
 #### EUREKA CONFIG ####
