@@ -3,12 +3,6 @@ server:
   port : 9001
 
 spring :
-  mail :
-    host : smtp.mailtrap.io
-    port : 2525
-    username : 	e6681f9b4c0d9d
-    password : 14925238f9bb7a
-
 
   rabbitmq:
     host: localhost
