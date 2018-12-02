@@ -26,13 +26,12 @@ spring :
       host : localhost
       database : Authentication-Server-DB
 
-
 ### CLOUD MESSAGING PROPERTIES ###
-cloud :
-  stream :
-    bindings:
-      accountCreationEmailOutput :
-        destination : accountCreationChannel
+  cloud :
+    stream :
+     bindings:
+        accountCreationEmailOutput :
+          destination : accountCreationChannel
 
 
 ### MESSAGES D'ERREUR ###
