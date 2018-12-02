@@ -1,0 +1,27 @@
+spring :
+  mail :
+    host : smtp.gmail.com
+    port : 587
+    username : sedhjo@gmail.com
+    password : enrique!87
+
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+
+  cloud :
+    stream :
+      bindings:
+        accountCreationEmailInput :
+          destination : accountCreationChannel
+          group : accountCreationChannelGroup
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: Notification-Server-DB
