@@ -3,6 +3,18 @@ server:
   port : 9001
 
 spring :
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: sedhjo@gmail.com
+    password: enrique!87
+    properties:
+      mail :
+        smtp:
+          auth : true
+          starttls :
+            enable : true
+            required : true
 
   rabbitmq:
     host: localhost
