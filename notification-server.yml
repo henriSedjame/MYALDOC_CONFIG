@@ -2,7 +2,16 @@
 server:
   port : 9001
 
+### TWILIO PROPERTIES ###
+twilio :
+  accountSid : ACf2629fda1bb2b569072d3a85d98d5afb
+  authToken : 0cd31e9a0a05332688a166f8db8b18c7
+  number : +33644645252
+
+### SPRING PROPERTIES ###
 spring :
+
+  ## MAIL ##
   mail:
     host: smtp.gmail.com
     port: 587
@@ -16,6 +25,7 @@ spring :
             enable : true
             required : true
 
+  ## RABBIT MQ ##
   rabbitmq:
     host: localhost
     port: 5672
@@ -23,6 +33,7 @@ spring :
     password: guest
 
 
+  ## CLOUD STREAM ##
   cloud :
     stream :
       bindings:
@@ -30,6 +41,7 @@ spring :
           destination : accountCreationChannel
           group : accountCreationChannelGroup
 
+  ## MONGO DB ##
   data:
     mongodb:
       host: localhost
