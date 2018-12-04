@@ -7,8 +7,8 @@ server :
 
 security:
   oauth2:
-    #sso :
-    #  loginPath : /login
+    sso :
+      loginPath : /login
     client:
       clientId: test
       clientSecret: test
