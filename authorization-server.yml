@@ -32,6 +32,8 @@ spring :
      bindings:
         accountCreationEmailOutput :
           destination : accountCreationChannel
+        accountDeletionEmailOutput:
+          destination: accountDeletionChannel
 
 
 ### MESSAGES D'ERREUR ###

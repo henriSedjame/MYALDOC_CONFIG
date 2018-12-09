@@ -40,6 +40,9 @@ spring :
         accountCreationEmailInput :
           destination : accountCreationChannel
           group : accountCreationChannelGroup
+        accountDeletionEmailInput:
+          destination: accountDeletionChannel
+          group: accountDeletionChannelGroup
 
   ## MONGO DB ##
   data:
