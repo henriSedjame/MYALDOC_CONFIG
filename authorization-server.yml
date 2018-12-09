@@ -45,4 +45,5 @@ error :
     userNotFound : Aucun utilisateur avec le login {0} n'a été trouvé.
     badCredentials : Identifiants incorrects.
     userAlreadyExist : Le login {0} est déjà utilisé.
+    accountDeletionError : Une erreur est survenue lors de la suppression du compte ID : {0}
 
