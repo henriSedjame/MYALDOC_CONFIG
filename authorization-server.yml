@@ -18,8 +18,10 @@ client-details :
   resourceIds : testId
 
 
-### MONGODB PROPERTIES ###
+### SPRING PROPERTIES ###
 spring :
+
+  ### MONGODB PROPERTIES ###
   data :
     mongodb :
       port : 27017
@@ -34,6 +36,8 @@ spring :
           destination : accountCreationChannel
         accountDeletionEmailOutput:
           destination: accountDeletionChannel
+        accountActivationEmailOutput:
+          destination: accountActivationChannel
 
 
 ### MESSAGES D'ERREUR ###
