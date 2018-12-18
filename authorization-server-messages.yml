@@ -6,16 +6,3 @@ Pattern :
   user :
     password : Le mot de passe doit contenir au moins 8 caractères, une lettre majuscule, un chiffre et un caractère spécial.
 
-
-user :
-  activation :
-    success : |
-      Félicitations {0} !!!
-      Votre compte a bien été mis à jour.
-      Vous pouvez d'ores et déjà vous connectez à nos services.
-    failure : |
-      Désolé !!!
-      Une erreur est survenue lors de l'activation du compte {0}.
-      Veuillez réessayer ultérieurement.
-      Si le problème persiste veuillez nous le signaler en cliqant sur le lien ci-dessous :
-      lien cliquable
