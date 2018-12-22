@@ -18,8 +18,10 @@ client-details :
   resourceIds : testId
 
 
-### MONGODB PROPERTIES ###
+### SPRING PROPERTIES ###
 spring :
+
+  ### MONGODB PROPERTIES ###
   data :
     mongodb :
       port : 27017
@@ -34,6 +36,8 @@ spring :
           destination : accountCreationChannel
         accountDeletionEmailOutput:
           destination: accountDeletionChannel
+        accountActivationEmailOutput:
+          destination: accountActivationChannel
 
 
 ### MESSAGES D'ERREUR ###
@@ -47,4 +51,18 @@ error :
     accountDeletionError : Une erreur est survenue lors de la suppression du compte ID {0}.
     userRetrievingError : Une erreur est survenue lors de la récupération de l'utilisateur {0}.
     userSavingError : Une erreur est survenue lors de la sauvegarde de l'utilisateur {0}.
+    userActivationError : Une erreur est survenue lors de l'activation du compte {0}.
 
+### MESSAGES ###
+user :
+  activation :
+    success : |
+      Félicitations {0} !!!
+      Votre compte a bien été mis à jour.
+      Vous pouvez d'ores et déjà vous connectez à nos services.
+    failure : |
+      Désolé !!!
+      Une erreur est survenue lors de l'activation du compte {0}.
+      Veuillez réessayer ultérieurement.
+      Si le problème persiste veuillez nous le signaler en cliqant sur le lien ci-dessous
+      lien cliquable
