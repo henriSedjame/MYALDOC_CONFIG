@@ -21,7 +21,6 @@ zuul :
   routes :
     service-a :
       path : /service-a/**
-      url : http://localhost:8081/
       serviceId : service-a
       stripPrefix : false
 
