@@ -19,7 +19,7 @@ security:
 zuul :
   sensitive-headers :
   routes :
-    resource :
+    service-a :
       path : /service-a/**
       url : http://localhost:8081/
       stripPrefix : false
