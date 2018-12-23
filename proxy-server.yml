@@ -22,7 +22,6 @@ zuul :
     service-a :
       path : /service-a/**
       serviceId : service-a
-      stripPrefix : false
 
 ### MESSAGEs D'ERREUR  ###
 
