@@ -10,7 +10,7 @@ security:
     client:
       clientId: test
       clientSecret: test
-      #accessTokenUri: http://localhost:9000/auth/oauth/token
+      accessTokenUri: http://localhost:9000/auth/oauth/token
       #userAuthorizationUri: http://localhost:9000/auth/oauth/authorize
       #scope : scope
     resource:
