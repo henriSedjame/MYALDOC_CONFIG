@@ -30,4 +30,4 @@ zuul :
 
 error :
   messages :
-    tokenRetrievingError : Une erreur est survenue lors de la récupération du token d'authetification.
+    tokenRetrievingError : Une erreur est survenue lors de la récupération du token d'authentification.
