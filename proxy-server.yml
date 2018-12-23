@@ -7,23 +7,21 @@ server :
 
 security:
   oauth2:
-    sso :
-      loginPath : /login
     client:
       clientId: test
       clientSecret: test
-      accessTokenUri: http://localhost:9000/auth/oauth/token
-      userAuthorizationUri: http://localhost:9000/auth/oauth/authorize
-      scope : scope
+      #accessTokenUri: http://localhost:9000/auth/oauth/token
+      #userAuthorizationUri: http://localhost:9000/auth/oauth/authorize
+      #scope : scope
     resource:
       userInfoUri: http://localhost:9000/auth/user
 
 zuul :
   sensitive-headers :
   routes :
-    service-a :
+    resource :
       path : /service-a/**
-      serviceId : service-a
+      url : http://localhost:8081/
       stripPrefix : false
 
 ### MESSAGEs D'ERREUR  ###
