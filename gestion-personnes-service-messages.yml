@@ -1,0 +1,31 @@
+Pattern :
+  adresse :
+    codePostal : Le format du code postal est incorrect.
+  telephone :
+    indicatif : Le format de l'indicatif est incorrect.
+    numero : Le format du numéro de téléphone est incorrect.
+  infosInsee :
+    siret : Le format du numéro siret est incorrect.
+
+NotNull :
+  telephone :
+    numero : Veuillez renseigner un numéro de téléphone.
+  identite :
+    nom : Veuillez renseigner votre nom.
+    prenom : Veuillez renseigner votre prénom.
+    dateNaissance : Veuillez renseigner votre date de naissance.
+  infosInsee :
+    siret : Veuillez renseigner votre numéro siret.
+    raisonSociale : Veuillez renseigner votre raison sociale.
+
+Email :
+  coordonnees :
+    email : Le format de l'email est incorrect.
+
+Past :
+  identite :
+    dateNaissance : La date de naissance doit être située dans le passé.
+
+Majeur :
+  identite :
+    dateNaissance : L'inscription n'est ouverte qu'aux personnes majeures.
