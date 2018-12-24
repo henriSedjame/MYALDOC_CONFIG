@@ -2,20 +2,7 @@
 server :
   port : 9999
 
-
-### SECURITY DETAILS ###
-
-security:
-  oauth2:
-    client:
-      clientId: test
-      clientSecret: test
-      accessTokenUri: http://localhost:9000/auth/oauth/token
-      #userAuthorizationUri: http://localhost:9000/auth/oauth/authorize
-      #scope : scope
-    resource:
-      userInfoUri: http://localhost:9000/auth/user
-
+### ZUUL PROXY ROUTES ###
 zuul :
   sensitive-headers :
   routes :
@@ -24,7 +11,6 @@ zuul :
       serviceId : service-a
 
 ### MESSAGEs D'ERREUR  ###
-
 error :
   messages :
     tokenRetrievingError : Une erreur est survenue lors de la récupération du token d'authentification.

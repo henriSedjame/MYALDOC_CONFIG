@@ -3,6 +3,23 @@ spring :
   profiles :
     active : dev,security,webMvc
 
+  ### RABBIT MQ CONFIG###
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+### SECURITY CONFIG ####
+security:
+  oauth2:
+    client:
+      clientId: test
+      clientSecret: test
+      accessTokenUri: http://localhost:9000/auth/oauth/token
+    resource:
+      userInfoUri: http://localhost:9000/auth/user
+
 
 #### EUREKA CONFIG ####
 eureka:
