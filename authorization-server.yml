@@ -43,7 +43,7 @@ spring :
 ### MESSAGES D'ERREUR ###
 error :
   messages :
-  defaultMessage : Une erreur est survenue.
+    defaultMessage : Une erreur est survenue.
     internalError : Une erreur technique s'est produite.
     userNotFound : Aucun utilisateur avec le login {0} n'a été trouvé.
     badCredentials : Identifiants incorrects.
