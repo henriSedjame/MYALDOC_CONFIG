@@ -5,6 +5,12 @@ server:
   servlet :
     context-path : "/auth"
 
+### JWT PROPERTIES ###
+jwt :
+  properties :
+    secret : jk45dddkjhmLDKLel68dfjMdlkd4f8gfSD745gpopgjsMFvkvcl487cvDSLFDDVd5d34736qQKDjk45dddkjhmLDKLel68dfjMdlkd4f8gfSD745gpopgjsMFvkvcl487cvDSLFDDVd5d34736qQKDjk45dddkjhmLDKLel68dfjMdlkd4f8gfSD745gpopgjsMFvkvcl487cvDSLFDDVd5d34736qQKDv
+    expiration : 28800
+
 
 ### OAUTH2 CLIENT DETAILS ###
 client-details :
