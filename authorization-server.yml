@@ -2,8 +2,7 @@
 ### SERVER DETAILS ###
 server:
   port : 9000
-  servlet :
-    context-path : "/auth"
+
 
 ### JWT PROPERTIES ###
 jwt :
