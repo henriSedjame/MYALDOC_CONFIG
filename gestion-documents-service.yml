@@ -4,7 +4,6 @@ server :
 
 ### SPRING PROPERTIES ###
 spring :
-
   ### SERVLET MULTIPART ###
   servlet :
     multipart :

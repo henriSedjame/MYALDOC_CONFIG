@@ -5,12 +5,3 @@ server :
 ### ZUUL PROXY ROUTES ###
 zuul :
   sensitive-headers :
-  routes :
-    service-a :
-      path : /service-a/**
-      serviceId : service-a
-
-### MESSAGEs D'ERREUR  ###
-error :
-  messages :
-    tokenRetrievingError : Une erreur est survenue lors de la récupération du token d'authentification.

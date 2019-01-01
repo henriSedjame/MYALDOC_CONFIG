@@ -11,18 +11,6 @@ jwt :
     expiration : 28800
 
 
-### OAUTH2 CLIENT DETAILS ###
-client-details :
-  clientId : test
-  clientSecret : test
-  grantTypes : refresh_token,password,client_credentials
-  scopes : scope
-  redirectUris : http://localhost:9999/login
-  tokenValiditySeconds : 120
-  refreshTokenValiditySecond : 600
-  resourceIds : testId
-
-
 ### SPRING PROPERTIES ###
 spring :
 
@@ -58,17 +46,3 @@ error :
     userSavingError : Une erreur est survenue lors de la sauvegarde de l'utilisateur {0}.
     userActivationError : Une erreur est survenue lors de l'activation du compte {0}.
     userNotFoundForPasswordUpdating : Une erreur est survenue lors de la mise à jour du mot de passe. Aucun utilisateur avec le login {0} n'a été trouvé.
-
-### MESSAGES ###
-user :
-  activation :
-    success : |
-      Félicitations {0} !!!
-      Votre compte a bien été mis à jour.
-      Vous pouvez d'ores et déjà vous connectez à nos services.
-    failure : |
-      Désolé !!!
-      Une erreur est survenue lors de l'activation du compte {0}.
-      Veuillez réessayer ultérieurement.
-      Si le problème persiste veuillez nous le signaler en cliqant sur le lien ci-dessous
-      lien cliquable
