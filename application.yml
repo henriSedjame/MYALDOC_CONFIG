@@ -10,6 +10,10 @@ spring :
     username: guest
     password: guest
 
+### AUTHENTICATION PROPERTIES ###
+myaldoc :
+  auth :
+    authenticationUri : http://localhost:9000/user/authenticate
 
 #### EUREKA CONFIG ####
 eureka:
