@@ -13,7 +13,7 @@ spring :
 ### AUTHENTICATION PROPERTIES ###
 myaldoc :
   auth :
-    authenticationUri : http://localhost:9000/user/authenticate
+    userRetrieveUri : http://localhost:9000/user/retrieve
 
 #### EUREKA CONFIG ####
 eureka:
