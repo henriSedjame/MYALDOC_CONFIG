@@ -10,7 +10,7 @@ spring :
     username: guest
     password: guest
 
-### AUTHENTICATION PROPERTIES ###
+### MYALDOC AUTHENTICATION PROPERTIES ###
 myaldoc :
   auth :
     userRetrieveUri : http://localhost:9000/user/retrieve
