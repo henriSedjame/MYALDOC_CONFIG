@@ -27,6 +27,6 @@ error :
     defaultMessage : Une erreur est survenue.
     saveFileError : Une erreur est survenue lors de la sauvegarde du fichier {0}.
     saveFileNull : Le fichier à sauvegarder est null.
-    fileIdNull : Une erreur est survenue : l'identifiant du fichier est null.
+    fileIdNull : Une erreur est survenue; l'identifiant du fichier est null.
     retrieveFileError : Une erreur est survenue lors de la récupération du fichier {0}.
     deleteFileError : Une erreur est survenue lors de la suppression du fichier {0}.
