@@ -18,3 +18,10 @@ spring :
 error :
   messages :
     defaultMessage : Une erreur est survenue.
+    savePersonneError : Une erreur est survenue lors de la sauvegarde de la personne.
+    savePersonneNull : La personne à sauvegarder est null.
+    personneNotExistError : La personne n'existe pas.
+    updatePersonneError : Une erreur est survenue lors de la mise à jour de la personne {0}.
+    deletePersonneError : Une erreur est survenue lors de la suppression de la personne {0}.
+    personneIdNull : L'id de la personne est null.
+    retrievePersonneError : Une erreur est survenue lors dela récupération de la person {0}.
