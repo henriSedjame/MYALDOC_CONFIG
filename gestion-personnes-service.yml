@@ -25,3 +25,4 @@ error :
     deletePersonneError : Une erreur est survenue lors de la suppression de la personne {0}.
     personneIdNull : L'id de la personne est null.
     retrievePersonneError : Une erreur est survenue lors dela récupération de la person {0}.
+    alreadyExistError : La personne {0} existe déjà.
