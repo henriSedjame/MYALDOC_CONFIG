@@ -1,0 +1,20 @@
+### SERVER DETAILS ###
+server :
+  port : 9004
+
+### SPRING PROPERTIES ###
+spring :
+
+  ### MONGO DB ###
+  data:
+    mongodb:
+      port: 27017
+      host: localhost
+      database: Agenda-Service-DB
+
+  ### CLOUD STREAM ###
+
+### ERROR MESSAGES ###
+error :
+  messages :
+    defaultMessage : Une erreur est survenue.
